@@ -1,6 +1,7 @@
+Sprite2D
+ColorRect
 Button
 Control
-Sprite2D
 Node2D
 CanvasLayer
 Camera2D

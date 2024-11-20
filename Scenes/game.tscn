@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk7bleesvudsm"]
+
+[ext_resource type="Texture2D" uid="uid://san22kgtcaog" path="res://Assets/board_bg.png" id="1_f80v2"]
+
+[node name="Game" type="Node2D"]
+position = Vector2(320, 472)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+scale = Vector2(7.7975, 7.7975)
+texture = ExtResource("1_f80v2")

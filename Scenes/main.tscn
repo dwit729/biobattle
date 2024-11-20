@@ -3,21 +3,11 @@
 [ext_resource type="PackedScene" uid="uid://h7sdcrkagexi" path="res://Scenes/mainmenu.tscn" id="1_mn5du"]
 
 [node name="Main" type="Node2D"]
+position = Vector2(320, 448)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(321, 474)
+position = Vector2(-8, 24)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Mainmenu" parent="." instance=ExtResource("1_mn5du")]
-anchors_preset = 0
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-offset_left = 312.595
-offset_top = 482.183
-offset_right = 312.595
-offset_bottom = 482.183
-grow_horizontal = 1
-grow_vertical = 1

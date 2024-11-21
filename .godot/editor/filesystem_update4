@@ -1,5 +1,6 @@
-res://Scenes/mainmenu.tscn
-res://Scenes/main.tscn
-res://Scenes/board.tscn
 res://Scenes/game.tscn
+res://Scenes/main.tscn
+res://Scenes/mainmenu.tscn
 res://Scenes/mainmenu.gd
+res://Scenes/testtransition.tscn
+res://Scenes/game.gd

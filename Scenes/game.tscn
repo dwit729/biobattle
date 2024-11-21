@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://dk7bleesvudsm"]
+[gd_scene load_steps=4 format=3 uid="uid://dk7bleesvudsm"]
 
 [ext_resource type="Texture2D" uid="uid://san22kgtcaog" path="res://Assets/board_bg.png" id="1_f80v2"]
+[ext_resource type="Script" path="res://Scenes/game.gd" id="1_l4vrx"]
+[ext_resource type="PackedScene" uid="uid://boija1n6e3xt8" path="res://Scenes/testtransition.tscn" id="3_8us6r"]
 
 [node name="Game" type="Node2D"]
 position = Vector2(320, 472)
+script = ExtResource("1_l4vrx")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -8)
 scale = Vector2(7.7975, 7.7975)
 texture = ExtResource("1_f80v2")
+
+[node name="testtransition" parent="." instance=ExtResource("3_8us6r")]
+position = Vector2(-319, -542)

@@ -2,9 +2,11 @@ extends Control
 
 @onready var trans = $testtransition/AnimationPlayer
 @onready var transpage = $testtransition
+@onready var logo = $logoanim/AnimationPlayer
 
 func _ready() -> void:
 	transpage.hide()
+	logo.play("logoanim")
 	
 func _on_button_pressed() -> void:
 	transpage.show()

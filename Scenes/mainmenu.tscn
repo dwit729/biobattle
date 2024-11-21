@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://h7sdcrkagexi"]
+[gd_scene load_steps=5 format=3 uid="uid://h7sdcrkagexi"]
 
 [ext_resource type="Texture2D" uid="uid://1rg3qciq8hb5" path="res://Assets/home_bg.png" id="1_5w1k6"]
 [ext_resource type="Script" path="res://Scenes/mainmenu.gd" id="1_u3xbw"]
 [ext_resource type="PackedScene" uid="uid://boija1n6e3xt8" path="res://Scenes/testtransition.tscn" id="3_b1m0p"]
+[ext_resource type="PackedScene" uid="uid://c35goqcmkqy6m" path="res://Scenes/logoanim.tscn" id="4_m3gmt"]
 
 [node name="Mainmenu" type="Control"]
 layout_mode = 3
@@ -39,5 +40,8 @@ text = "Start Game"
 [node name="testtransition" parent="." instance=ExtResource("3_b1m0p")]
 visible = false
 position = Vector2(-313, -612)
+
+[node name="logoanim" parent="." instance=ExtResource("4_m3gmt")]
+position = Vector2(3, -283)
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

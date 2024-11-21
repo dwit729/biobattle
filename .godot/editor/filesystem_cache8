@@ -1,13 +1,17 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1732154274
+::res://::1732154275
 export_presets.cfg::TextFile::-1::1732154262::0::1::::<><>::
 icon.svg::CompressedTexture2D::429509142740934584::1732154262::1732154275::1::::<><>::
 README.md::TextFile::-1::1732154262::0::1::::<><>::
-::res://Assets/::1732154262
+::res://Assets/::1732155943
 board_bg.png::CompressedTexture2D::1264238156702559202::1732154262::1732154275::1::::<><>::
 home_bg.png::CompressedTexture2D::1860419504443175140::1732154262::1732154275::1::::<><>::
-::res://Scenes/::1732154262
-game.tscn::PackedScene::7927291153434569260::1732154262::0::1::::<><>::uid://san22kgtcaog::::res://Assets/board_bg.png
-main.tscn::PackedScene::2062420352713907122::1732154262::0::1::::<><>::uid://h7sdcrkagexi::::res://Scenes/mainmenu.tscn
-mainmenu.gd::GDScript::-1::1732154262::0::1::::<>Control<>::
-mainmenu.tscn::PackedScene::558480388610621398::1732154262::0::1::::<><>::uid://1rg3qciq8hb5::::res://Assets/home_bg.png<>res://Scenes/mainmenu.gd
+LOGO.png::CompressedTexture2D::6233450709881206263::1732127100::1732155948::1::::<><>::
+LOGO_WITH TEXT.png::CompressedTexture2D::171425038762690933::1732127100::1732155948::1::::<><>::
+::res://Scenes/::1732155733
+game.tscn::PackedScene::7927291153434569260::1732155733::0::1::::<><>::uid://san22kgtcaog::::res://Assets/board_bg.png<>res://Scenes/game.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn
+main.tscn::PackedScene::2062420352713907122::1732155733::0::1::::<><>::uid://h7sdcrkagexi::::res://Scenes/mainmenu.tscn
+mainmenu.gd::GDScript::-1::1732155436::0::1::::<>Control<>::
+mainmenu.tscn::PackedScene::558480388610621398::1732155733::0::1::::<><>::uid://1rg3qciq8hb5::::res://Assets/home_bg.png<>res://Scenes/mainmenu.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn
+game.gd::GDScript::-1::1732155079::0::1::::<>Node2D<>::
+testtransition.tscn::PackedScene::3386127356697463235::1732155733::0::1::::<><>::

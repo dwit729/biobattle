@@ -4,3 +4,4 @@ res://Scenes/mainmenu.tscn
 res://Scenes/cell.tscn
 res://Scenes/board.tscn
 res://board.gd
+res://Scenes/kingdom.gd

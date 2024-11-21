@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://jc4re0macnu2"]
+
+[ext_resource type="Texture2D" uid="uid://b5wg612bj17oj" path="res://Assets/board.png" id="1_xyjyo"]
+[ext_resource type="Script" path="res://board.gd" id="2_5uqc7"]
+
+[node name="board" type="Sprite2D"]
+position = Vector2(5.38, 0)
+texture = ExtResource("1_xyjyo")
+script = ExtResource("2_5uqc7")
+
+[node name="pieces" type="Node2D" parent="."]
+position = Vector2(-70.31, -70.71)
+
+[node name="indicator" type="Node2D" parent="."]

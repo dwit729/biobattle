@@ -1,17 +1,40 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1732154275
+::res://::1732174841
+board.gd::GDScript::-1::1732174745::0::1::::<>Sprite2D<>::
 export_presets.cfg::TextFile::-1::1732154262::0::1::::<><>::
 icon.svg::CompressedTexture2D::429509142740934584::1732154262::1732154275::1::::<><>::
 README.md::TextFile::-1::1732154262::0::1::::<><>::
-::res://Assets/::1732155943
+root.tscn::PackedScene::8543580894261044104::1732173556::0::1::::<><>::
+::res://Assets/::1732161012
+board.png::CompressedTexture2D::4537923372366383013::1732160540::1732160682::1::::<><>::
 board_bg.png::CompressedTexture2D::1264238156702559202::1732154262::1732154275::1::::<><>::
 home_bg.png::CompressedTexture2D::1860419504443175140::1732154262::1732154275::1::::<><>::
 LOGO.png::CompressedTexture2D::6233450709881206263::1732127100::1732155948::1::::<><>::
 LOGO_WITH TEXT.png::CompressedTexture2D::171425038762690933::1732127100::1732155948::1::::<><>::
-::res://Scenes/::1732155733
-game.tscn::PackedScene::7927291153434569260::1732155733::0::1::::<><>::uid://san22kgtcaog::::res://Assets/board_bg.png<>res://Scenes/game.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn
-main.tscn::PackedScene::2062420352713907122::1732155733::0::1::::<><>::uid://h7sdcrkagexi::::res://Scenes/mainmenu.tscn
-mainmenu.gd::GDScript::-1::1732155436::0::1::::<>Control<>::
-mainmenu.tscn::PackedScene::558480388610621398::1732155733::0::1::::<><>::uid://1rg3qciq8hb5::::res://Assets/home_bg.png<>res://Scenes/mainmenu.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn
-game.gd::GDScript::-1::1732155079::0::1::::<>Node2D<>::
-testtransition.tscn::PackedScene::3386127356697463235::1732155733::0::1::::<><>::
+side1_back_sprite 1.png::CompressedTexture2D::6644123295528989040::1732160653::1732160682::1::::<><>::
+side2_back_sprite 1.png::CompressedTexture2D::75484366281279887::1732160656::1732160682::1::::<><>::
+sprite_domain.png::CompressedTexture2D::7470457105405914100::1732127100::1732161012::1::::<><>::
+sprite_family.png::CompressedTexture2D::1782844525646281860::1732127100::1732161012::1::::<><>::
+sprite_genus.png::CompressedTexture2D::2309053875219945153::1732127100::1732161012::1::::<><>::
+sprite_kingdom.png::CompressedTexture2D::3745431153978899746::1732127100::1732161012::1::::<><>::
+sprite_order.png::CompressedTexture2D::4007573213517491452::1732127100::1732161012::1::::<><>::
+sprite_phylum.png::CompressedTexture2D::2329122719935743325::1732127100::1732161012::1::::<><>::
+sprite_species.png::CompressedTexture2D::7710949199935893954::1732127100::1732161012::1::::<><>::
+::res://Scenes/::1732174787
+board.tscn::PackedScene::637619748795852103::1732174669::0::1::::<><>::uid://b5wg612bj17oj::::res://Assets/board.png<>res://board.gd
+cell.tscn::PackedScene::5448391282978971321::1732174745::0::1::::<><>::
+domain.gd::GDScript::-1::1732169435::0::1::::<>Sprite2D<>::
+domain.tscn::PackedScene::463531394343985613::1732169690::0::1::::<><>::uid://deo0lpwsi10s3::::res://Assets/sprite_domain.png<>res://Scenes/domain.gd
+family.tscn::PackedScene::6645533773742759250::1732161547::0::1::::<><>::uid://0nvgok8fen3i::::res://Assets/sprite_family.png
+game.gd::GDScript::-1::1732163809::0::1::::<>Node2D<>::
+game.tscn::PackedScene::7927291153434569260::1732174669::0::1::::<><>::uid://san22kgtcaog::::res://Assets/board_bg.png<>res://Scenes/game.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn<>uid://jc4re0macnu2::::res://Scenes/board.tscn
+genus.tscn::PackedScene::2693658643087004305::1732161606::0::1::::<><>::uid://75r1rv4fkjxp::::res://Assets/sprite_genus.png
+kingdom.tscn::PackedScene::6287225330409774364::1732161665::0::1::::<><>::uid://btmkx6x02q7ic::::res://Assets/sprite_kingdom.png
+logoanim.tscn::PackedScene::6800450468966626730::1732160803::0::1::::<><>::uid://cu2sa08j0ieqx::::res://Assets/LOGO.png<>uid://cpbl0hmfsjbp::::res://Assets/LOGO_WITH TEXT.png
+main.tscn::PackedScene::2062420352713907122::1732174669::0::1::::<><>::uid://h7sdcrkagexi::::res://Scenes/mainmenu.tscn
+mainmenu.gd::GDScript::-1::1732156441::0::1::::<>Control<>::
+mainmenu.tscn::PackedScene::558480388610621398::1732174669::0::1::::<><>::uid://1rg3qciq8hb5::::res://Assets/home_bg.png<>res://Scenes/mainmenu.gd<>uid://boija1n6e3xt8::::res://Scenes/testtransition.tscn<>uid://c35goqcmkqy6m::::res://Scenes/logoanim.tscn
+order.tscn::PackedScene::3237850077748666241::1732161731::0::1::::<><>::uid://bxdke68m2mdqa::::res://Assets/sprite_order.png
+phylum.tscn::PackedScene::4101040516447548451::1732161812::0::1::::<><>::uid://8giktn65ld8x::::res://Assets/sprite_phylum.png
+species.tscn::PackedScene::2895320179640534746::1732169690::0::1::::<><>::uid://dh4iha8w8x6s1::::res://Assets/sprite_species.png<>res://Scenes/species.gd
+testtransition.tscn::PackedScene::3386127356697463235::1732160803::0::1::::<><>::

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dk7bleesvudsm"]
+[gd_scene load_steps=5 format=3 uid="uid://dk7bleesvudsm"]
 
 [ext_resource type="Texture2D" uid="uid://san22kgtcaog" path="res://Assets/board_bg.png" id="1_f80v2"]
 [ext_resource type="Script" path="res://Scenes/game.gd" id="1_l4vrx"]
 [ext_resource type="PackedScene" uid="uid://boija1n6e3xt8" path="res://Scenes/testtransition.tscn" id="3_8us6r"]
+[ext_resource type="PackedScene" uid="uid://jc4re0macnu2" path="res://Scenes/board.tscn" id="4_r0k4a"]
 
 [node name="Game" type="Node2D"]
 position = Vector2(320, 472)
@@ -13,5 +14,9 @@ position = Vector2(0, -8)
 scale = Vector2(7.7975, 7.7975)
 texture = ExtResource("1_f80v2")
 
+[node name="board" parent="." instance=ExtResource("4_r0k4a")]
+scale = Vector2(3.395, 3.395)
+
 [node name="testtransition" parent="." instance=ExtResource("3_8us6r")]
+visible = false
 position = Vector2(-319, -542)

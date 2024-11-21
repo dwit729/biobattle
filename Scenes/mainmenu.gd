@@ -11,5 +11,6 @@ func _ready() -> void:
 func _on_button_pressed() -> void:
 	transpage.show()
 	trans.play("fadein")
+	logo.play("fadeout")
 	await get_tree().create_timer(0.5).timeout
 	get_tree().change_scene_to_file("res://Scenes/game.tscn")
